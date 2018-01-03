@@ -1,0 +1,82 @@
+/* ABOUT section styling */
+.email{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* my styling for EXPERIENCE section */
+.proj{
+    font-style: italic;
+    font-size: 18px
+}
+
+.toggle{
+  cursor: pointer;
+  display: block;
+  color: navy;
+  font-style: italic;
+}
+
+.toggle:hover{
+    text-decoration: underline;
+}
+.toggle + input[type="checkbox"]{
+  display: none; 
+}
+.toggle + input[type="checkbox"] + div{
+  display: none;
+}
+.toggle + input[type="checkbox"]:checked + div{
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+  padding: 8px;
+  background: white;
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 1.5s linear, max-height 1.5s linear;
+}
+
+#pictures{
+    width: 100%;
+    padding-left: 25px;
+}
+
+#pictures img{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+/* my styling for SKILLS section */
+#skill{
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 0px;
+    float: left;
+    text-align: center;
+    width: 30%
+}
+
+.row{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+#skill ul{
+    list-style: none;
+}
+
+#skill i{
+    margin-left: 40px;
+}
+
+#skill h3{
+    margin-left: 40px;
+}
+
+#skill .fa{
+    color: lightslategray;
+}
