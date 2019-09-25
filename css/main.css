@@ -1,0 +1,165 @@
+/******* start of desktop styles *******/
+/* Body Header */
+.body-header li {
+    display: inline;
+    font-family: 'caviar_dreamsbold';
+    font-size: 30px;
+}
+
+.body-header li.right {
+    float: right;
+    font-family: 'black_jackregular';
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(26, 26, 26, 0.8);
+  font-family: 'caviar_dreamsbold';
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #0099cc;
+}
+
+.navbar a:active {
+    background-color: #0099cc;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Home */
+body, html {
+  height: 100%;
+}
+
+.home {
+    background-image: url("../images/cap.jpeg");
+    height: 100%;
+    width: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-textbox, p {
+    position: relative;
+    background-color: rgb(230, 230, 230);
+    opacity: 0.2;
+    margin-top: 5%;
+    height: 70%;
+    width: 100%;
+    transition: 0.5s;
+    font-family: 'caviar_dreamsbold';
+    font-size: 50px;
+}
+
+.home-textbox:hover, p {
+    background-color: rgb(230, 230, 230);
+    opacity: 0.9;
+    border: solid 2px black; 
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    background-color: rgb(26, 26, 26);
+    height: 100%;
+}
+
+.vertical-menu a {
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'caviar_dreamsbold';
+    font-size: 25px;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* About Me */
+.portrait {
+    width: 20%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 991px) {
+/******* start of large tablet styles *******/
+
+}
+
+@media screen and (max-width: 767px) {
+/******* start of medium tablet styles *******/
+
+}
+
+@media screen and (max-width: 479px) {
+/******* start of phone styles *******/
+
+}
